@@ -1,0 +1,48 @@
+---
+title: "Setup"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+# Setup
+
+Let's set up your project for success! There are some tips and tricks to making your project more reproducible and streamlining your inputs and outputs so that code can be modified and re-run without causing a headache for the user (future you!).
+
+Here are some key elements of reproducible R scripts:
+
+## Packages
+
+Your setup code should list all the packages you are using. This makes it easy for others to install the same packages and reproduce your results.
+
+```{r packages}
+
+library(tidyverse) #for most of your data manipulation needs
+
+#install.packages("remotes")
+#remotes::install_github("BirdsCanada/naturecounts")
+library(naturecounts)
+
+```
+
+## Session Information
+
+You should also include the version numbers of the packages you are using, as different versions can have different behavior. Specifically, you should copy and paste the output of sessionInfo() at the top of the script. In this way you can store a bunch a vital info on the environment within which the script works (when it was written).
+
+```{r sessioninfo}
+
+sessionInfo()
+
+```
+
+## Create Directories
+
+Create both a `Data` and `Output` folder to store your files. 
+
+```{r directory}
+
+if(!dir.exists("Outputs")) dir.create("Outputs")
+if(!dir.exists("Data")) dir.create("Data")
+
+```

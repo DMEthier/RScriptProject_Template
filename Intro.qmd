@@ -1,0 +1,59 @@
+---
+title: "Introduction"
+format: html
+editor: visual
+---
+
+# Project Name
+
+# Introduction
+
+Welcome Birds Canada staff, collaborators, and friends. This R Project template was created to help you get started down the path that will make your R scripts more reproducible and shareable, while also making your future self happier.
+
+## Purpose
+
+The purpose of this R Project is to provide analytical staff, contractors, or students with a template that can guide the organization and annotation of your own R workflow. If you cloned this code from GitHub you can simply save the files in your personal project folder and start making edits to the text. It is that easy!
+
+## Overview
+
+All projects should start with an "Introduction" page which will include a Project Name and some subheadings, like what you see here. On this introductory page, you can give a brief overview of your project and also provide relevant links to web pages, protocols, or other documentation.
+
+A link that you might find useful as you work towards making your R scripts more reproducible and sharable is:
+
+-   [GitHub: A Beginners Guide](https://birdscanada.github.io/BirdsCanada_GitHubGuide/) - if you are new to GitHub, this guide is for you!
+
+If you are working with Birds Canada data, you will likely find the following links useful:
+
+-   [NatureCounts: An Introductory Tutorial](https://birdscanada.github.io/NatureCounts_IntroTutorial/) - if you are doing analysis on data stored in NatureCounts, this guide will help you access, manipulate, and visualize your data as you prepare for an analysis.
+
+-   [Motus](https://motuswts.github.io/motus/) - if you are a Motus user, you will find this guidebook most useful and thorough.
+
+This specific project was written with Quatro Documents and is organized into different sections that will help you organize your R workflow into logical steps. These chapters and their associated content can be modified to suit your own needs. I typically include the following sections in my workflow:
+
+-   Introduction
+
+-   Setup
+
+-   Data manipulation/ error checking
+
+-   Analysis
+
+-   Plots/Maps
+
+Some additional subheadings worth including on your Introduction page may include, but are not limited to:
+
+## Protocol
+
+What was the data collection protocol associated with your project? What project-specific metadata might be relevant to the data users? Provide links if possible.
+
+## Data Access
+
+How are the data accessed and what permissions are needed? What other auxiliary data are being used and how are they accessed? We will get into data manipulation in another section of the project.
+
+## Acknowledgments
+
+Who collected the data and/or funded the project? Make sure that your acknowledge those that helped with all aspects of the program.
+
+## Author Contact
+
+Who are you and how are people going to get a hold of you if they have questions? If you have specific questions or comments about this project, please contact Danielle Ethier, Population Scientist, Birds Canada: dethier\@birdscanada.org
