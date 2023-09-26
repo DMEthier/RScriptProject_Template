@@ -1,0 +1,19 @@
+---
+title: "DataManip"
+format: html
+editor: visual
+---
+
+# Data Manipulation
+
+Did you know that the bulk of any analytical workflow will be data manipulation and data checking. This can be a time consuming process which is why having reproducible scripts is important to your sanity. Below is a general sample of the steps that I take, but the process can look very different for different projects. 
+
+## Load Raw Data
+
+Load the raw data and save a copy to your output folder. This is important if you are pulling a lot of data from the NatureCounts or Motus server. If you are using an external datasource, save a copy in your data folder and read the file into R. Some sample code is provided. 
+
+## Select and Filter Data
+
+## Data Checks and Visulaizations
+
+## Save Clean Data

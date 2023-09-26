@@ -38,7 +38,7 @@ sessionInfo()
 
 ## Create Directories
 
-Create both a `Data` and `Output` folder to store your files. 
+Create both a `Data` and `Output` folder to store your files. This create a logical place to put your data inputs and model outputs. 
 
 ```{r directory}
 
